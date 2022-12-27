@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {text: "Welcome to Dianthe Studio!", color: "#6082bc"},
     {text: "( pronounced dye / ANN / thee )", color: "#120F02"},
     {text: "We work with womxn-led small businesses and startups to create custom online shopping experiences", color: "#120F02"},
-    {text: "...because your customers should feel your presence through every interactioin with your brand.", color: "#120F02"},
+    {text: "...because your customers should feel your unique presence through every interaction with your brand.", color: "#120F02"},
     {text: "Our website is currently under construction,", color: "#120F02"},
     {text: "we'll be accepting new clients soon <3", color: "#82b8d4"}
   ]
