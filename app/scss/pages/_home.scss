@@ -13,6 +13,10 @@ main {
   z-index: 1;
 
   &.slide { transform: translateX(-100vw); }
+
+  @include bp(small-only){
+    margin-top: -24px;
+  }
 }
 
 .typing-container,
