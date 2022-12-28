@@ -6,6 +6,10 @@ html {
 
 :root {
   background: $cream;
+
+  @media (prefers-reduced-motion: no-preference) {
+    scroll-behavior: smooth;
+  }
 }
 
 *,
@@ -33,6 +37,8 @@ body {
   line-height: 1.3;
   width: 100vw;
   min-height: 100vh;
+
+  overflow: hidden;
 }
 
 .visually-hidden {
