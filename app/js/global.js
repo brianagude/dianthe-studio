@@ -1,11 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const checkbox = document.getElementById('checkbox')
   const mainContent = document.getElementById("mainContent");
-  // const staticText = document.getElementById("staticText");
 
   checkbox.addEventListener('change', (e) => {
     mainContent.classList.toggle("slide");
-    // staticText.classList.toggle("show");
   })
 
   const carouselText = [
