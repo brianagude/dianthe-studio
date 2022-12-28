@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en-us">
   <head>
     <title>Dianthe Studio</title>
 
@@ -11,8 +11,6 @@
 
     <!-- twitter meta tags -->
     <meta name="twitter:card" content="summary" />
-    <!-- <meta name="twitter:site" content="@brianagude" />
-    <meta name="twitter:creator" content="@brianagude" /> -->
     <meta property="og:url" content="https://brianagude.com/" />
     <meta property="og:title" content="Dianthe Studio" />
     <meta property="og:description" content="We create eCommerce stores for womxn-led small businesses." />
@@ -28,15 +26,41 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
     <link rel="manifest" href="./favicons/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#f4e9d7">
+    <meta name="theme-color" content="#f4e9d7">
+    <meta name="theme-color" content="#f4e9d7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#f4e9d7" media="(prefers-color-scheme: dark)">
   </head>
 
   <body class='homepage'>
-    <div class="typing-container">
-      <span id="sentence" class="sentence"></span>
-      <span class="input-cursor"></span>
+    <div class="toggle">
+      <input type="checkbox" id="checkbox" checked/>
+      <label></label>
     </div>
+
+    <main id="mainContent">
+      <div class="typing-container show" id="typingText">
+        <div class="text-wrapper">
+          <span id="sentence" class="sentence"></span>
+          <span class="input-cursor"></span>
+        </div>
+      </div>
+  
+      <div class="text-container" id="staticText">
+        <div class="text-wrapper">
+          <h5 class="text-primary"><b>Welcome to Dianthe&nbsp;Studio!</b></h5>
+          <p class="text-tertiary small">( pronounced dye / ANN / thee )</p>
+        </div>
+        <div class="text-wrapper">
+          <p>We work with womxn-led small businesses and startups to create custom online shopping experiences, because <span class='text-secondary'>your customers should feel your unique presence through every interaction with your brand.</span></p>
+        </div>
+        <div class="text-wrapper">
+          <p>Our website is currently under construction.</p>
+          <p class="text-primary-light">We'll be accepting new clients soon <3</p>
+        </div>
+      </div>
+    </main>
+
 
     <script src='./js/global.js'></script>
   </body>

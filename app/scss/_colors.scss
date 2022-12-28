@@ -1,6 +1,6 @@
 // Grayscale
 $black:       #120f02;
-// $gray:        #484c51;
+$gray:        #d9d8d3;
 // $gray-medium: #787f87;
 // $gray-light:  #f3f3f3;
 // $light:       #f8fafc;
@@ -13,3 +13,27 @@ $primary-light: #82b8d4;
 $secondary:     #94a030;
 $tertiary:      #e3b722;
 $red:           #be4310;
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-primary-light {
+  color: $primary-light !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.text-tertiary {
+  color: $tertiary !important;
+}
+
+.text-red {
+  color: $red !important;
+}
+
+.text-gray {
+  color: $gray !important;
+}
