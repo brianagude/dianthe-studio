@@ -33,6 +33,7 @@ main {
   span {
     font-weight: 300;
     font-size: 1.25rem;
+    font-family: $font-primary;
   }
 
   p.small {
@@ -46,6 +47,10 @@ main {
 .text-wrapper {
   max-width: 32rem;
   & + .text-wrapper { margin-top: 24px; }
+}
+
+.text-container {
+  p { font-weight: 300; }
 }
 
 @keyframes blink {
