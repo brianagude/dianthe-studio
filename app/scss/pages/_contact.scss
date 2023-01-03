@@ -1,0 +1,37 @@
+.contact-page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+
+  @include bp(small-only) {
+    &.safari {
+      padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+    }
+
+    &.chrome {
+      padding-bottom: 7rem;
+    }
+  }
+
+  .contact-options {
+    .container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+    }
+
+    .title { 
+      text-align: center; 
+    }
+
+    h5 { text-align: center; }
+
+    .btn { 
+      margin: 16px auto 0; 
+      display: block;
+    }
+  }
+}

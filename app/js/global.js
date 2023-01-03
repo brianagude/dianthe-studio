@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+  // HEADER TOGGLE ==============================================================
   const checkbox = document.getElementById('checkbox')
   const mainContent = document.getElementById("mainContent");
 
@@ -6,13 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
     mainContent.classList.toggle("slide");
   })
 
+  // CAROUSEL TEXT ==============================================================
   const carouselText = [
     {text: "Welcome to Dianthe Studio!", color: "#6082bc"},
     {text: "( pronounced dye / ANN / thee )", color: "#e3b722"},
     {text: "We work with womxn-led small businesses and startups to create custom online shopping experiences,", color: "#120F02"},
-    {text: "...because your customers should feel your unique presence through every interaction with your brand.", color: "#120F02"},
-    {text: "Our website is currently under construction.", color: "#120F02"},
-    {text: "We'll be accepting new clients soon <3", color: "#82b8d4"}
+    {text: "...because your customers should feel your unique presence through every interaction with your brand.", color: "#120F02"}
   ]
 
   async function typeSentence(sentence, eleRef, delay = 100) {
@@ -60,4 +61,28 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   carousel(carouselText, '#sentence')
+
+    // DETECT WHICH BROWSER IS BEING USED ================================
+  function fnBrowserDetect(){
+    let userAgent = navigator.userAgent;
+    let browserName;
+    
+    if(userAgent.match(/chrome|chromium|crios/i)){
+      browserName = "chrome";
+    }else if(userAgent.match(/firefox|fxios/i)){
+      browserName = "firefox";
+    }  else if(userAgent.match(/safari/i)){
+      browserName = "safari";
+    }else if(userAgent.match(/opr\//i)){
+      browserName = "opera";
+    } else if(userAgent.match(/edg/i)){
+      browserName = "edge";
+    }else{
+      browserName="No browser detection";
+    }
+    
+    document.querySelector("body").classList.add(browserName);         
+  }
+
+  fnBrowserDetect()
 });

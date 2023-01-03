@@ -11,7 +11,7 @@
 
     <!-- twitter meta tags -->
     <meta name="twitter:card" content="summary" />
-    <meta property="og:url" content="https://brianagude.com/" />
+    <meta property="og:url" content="https://dianthe.studio/" />
     <meta property="og:title" content="Dianthe Studio" />
     <meta property="og:description" content="We create eCommerce stores for womxn-led small businesses." />
     <meta property="og:image" content="./favicons/social.jpg" />
@@ -32,36 +32,97 @@
     <meta name="theme-color" content="#f4e9d7" media="(prefers-color-scheme: dark)">
   </head>
 
-  <body class='homepage'>
-    <div class="toggle">
-      <input type="checkbox" id="checkbox" checked/>
-      <label></label>
-    </div>
-
-    <main id="mainContent">
-      <div class="typing-container show" id="typingText">
-        <div class="text-wrapper">
-          <span id="sentence" class="sentence"></span>
-          <span class="input-cursor"></span>
+  <body class='home-page'>
+    <header>
+      <div class="container">
+        <nav class="header-nav">
+          <a href="/">Home</a>
+          <a href="/contact">Contact</a>
+          <a href="https://www.instagram.com/dianthe.studio/">Follow</a>
+          <div class="animation start-home"></div>
+        </nav>
+        <div class="toggle">
+          <input type="checkbox" id="checkbox" checked />
+          <label></label>
         </div>
       </div>
+    </header>
   
-      <div class="text-container" id="staticText">
-        <div class="text-wrapper">
-          <h5 class="text-primary"><b>Welcome to Dianthe&nbsp;Studio!</b></h5>
-          <p class="text-tertiary small">( pronounced dye / ANN / thee )</p>
-        </div>
-        <div class="text-wrapper">
-          <p>We work with womxn-led small businesses and startups to create custom online shopping experiences, because <span class='text-secondary'>your customers should feel your unique presence through every interaction with your brand.</span></p>
-        </div>
-        <div class="text-wrapper">
-          <p>Our website is currently under construction.</p>
-          <p class="text-primary-light">We'll be accepting new clients soon <3</p>
+    <section class="main-content page-section" id="mainContent">
+      <div class="container">
+        <div class="slides">
+          <div class="typing-container" id="typingText">
+            <div class="text-wrapper">
+              <span id="sentence" class="sentence"></span>
+              <span class="input-cursor"></span>
+            </div>
+          </div>
+  
+          <div class="text-container" id="staticText">
+            <div class="text-wrapper">
+              <h5><b>Welcome to <span class="text-primary">Dianthe&nbsp;Studio</span>!</b></h5>
+              <p class="text-tertiary small">( pronounced dye / ANN / thee )</p>
+            </div>
+            <div class="text-wrapper">
+              <p>We work with womxn-led small businesses and startups to create custom online shopping experiences, because <span
+                  class='text-secondary'>your customers should feel your unique presence through every interaction with your
+                  brand.</span></p>
+            </div>
+          </div>
         </div>
       </div>
-    </main>
-
-
+    </section>
+  
+    <footer>
+      <div class="container">
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup" class="mailchimp-form">
+          <form
+            action="https://studio.us12.list-manage.com/subscribe/post?u=905a4cc0ce0602d1c8a49b155&amp;id=b47929e338&amp;f_id=005fbce0f0"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+            <!-- <p>Let's keep in touch</p> -->
+            <div id="mc_embed_signup_scroll">
+    
+              <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+              <!-- <div class="mc-field-group">
+                  <label for="mce-FNAME" class="visually-hidden">First Name </label>
+                  <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                  <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+                </div>
+                <div class="mc-field-group">
+                  <label for="mce-LNAME" class="visually-hidden">Last Name </label>
+                  <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                  <span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
+                </div> -->
+              <div class="mc-field-group">
+                <label for="mce-EMAIL" class="visually-hidden">Email Address <span class="asterisk">*</span>
+                </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                  placeholder="leave us your email" required>
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+              </div>
+              <div id="mce-responses" class="clear foot visually-hidden">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_905a4cc0ce0602d1c8a49b155_b47929e338" tabindex="-1" value="">
+              </div>
+              <div class="optionalParent">
+                <div class="clear foot">
+                  <input type="submit" value="submit" name="subscribe" id="mc-embedded-subscribe" class="button btn-submit">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+    
+        <!--End mc_embed_signup-->
+        <p class="copyright text-secondary">&copy; 2023 Dianthe Studio</p>
+      </div>
+    </footer>
+  
     <script src='./js/global.js'></script>
   </body>
 </html>

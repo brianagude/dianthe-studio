@@ -110,13 +110,17 @@ section {
 body {
   line-height: 1;
   font-size: 1em;
+}
+
+html {
   overflow-x: hidden;
+  width: 100vw;
 }
 
 button {
   background: none;
-  border: none; 
-  box-shadow: none; 
+  border: none;
+  box-shadow: none;
   cursor: pointer;
 }
 
@@ -155,7 +159,8 @@ table {
   }
 }
 
-img, iframe {
+img,
+iframe {
   vertical-align: bottom;
   max-width: 100%;
 }
@@ -164,4 +169,6 @@ a {
   display: inline-block;
 }
 
-div { width: 100%; }
+div {
+  width: 100%;
+}
