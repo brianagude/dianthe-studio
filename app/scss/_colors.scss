@@ -11,6 +11,7 @@ $secondary:     #94a030;
 $tertiary:      #e3b722;
 $red:           #be4310;
 
+
 .text-primary {
   color: $primary !important;
 }
@@ -33,4 +34,28 @@ $red:           #be4310;
 
 .text-gray {
   color: $gray !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-primary-light {
+  background-color: $primary-light !important;
+}
+
+.bg-secondary {
+  background-color: $secondary !important;
+}
+
+.bg-tertiary {
+  background-color: $tertiary !important;
+}
+
+.bg-red {
+  background-color: $red !important;
+}
+
+.bg-gray {
+  background-color: $gray !important;
 }

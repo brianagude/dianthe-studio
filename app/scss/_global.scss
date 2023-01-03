@@ -31,41 +31,12 @@ html {
 }
 
 ::-moz-selection {
-  background: $black;
+  background: $primary;
   color: $white;
-
-  // .text-primary {
-  //   color: $white !important;
-  //   background: $primary !important;
-  // }
-
-  // .text-primary-light {
-  //   background: $primary-light !important;
-  // }
-
-  // .text-secondary {
-  //   background: $secondary !important;
-  // }
-
-  // .text-tertiary {
-  //   background: $tertiary !important;
-  // }
-
-  // .text-blue {
-  //   background: $blue !important;
-  // }
-
-  // .text-blue-light {
-  //   background: $blue-light !important;
-  // }
-
-  // .text-gray {
-  //   background: $gray !important;
-  // }
 }
 
 ::selection {
-  background: $black;
+  background: $primary;
   color: $white;
 }
 
