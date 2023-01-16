@@ -12,8 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const carouselText = [
     {text: "Welcome to Dianthe Studio!", color: "#6082bc"},
     {text: "( pronounced dye / ANN / thee )", color: "#e3b722"},
-    {text: "We work with creative-led small businesses and startups to create custom online shopping experiences,", color: "#120F02"},
-    {text: "...because your customers should feel your unique presence through every interaction with your brand.", color: "#120F02"}
+    {text: "We work with womxn-led small businesses and startups to create custom online shopping experiences,", color: "#120F02"},
+    {text: "...because your customers should feel your unique presence through every interaction with your brand.", color: "#120F02"},
+    {text: "Follow us on instagram @dianthe.studio to learn more, or submit a project request to get on our client list!", color: "#120F02"}
   ]
 
   async function typeSentence(sentence, eleRef, delay = 100) {
@@ -62,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   carousel(carouselText, '#sentence')
 
-    // DETECT WHICH BROWSER IS BEING USED ================================
+// DETECT WHICH BROWSER IS BEING USED ====================================
   function fnBrowserDetect(){
     let userAgent = navigator.userAgent;
     let browserName;

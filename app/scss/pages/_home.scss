@@ -58,13 +58,19 @@
   .text-container {
   
     p,
-    .sentence {
+    .sentence,
+    p a {
       font-size: 1.25rem;
     }
   
     p.small {
       font-size: 16px;
       margin-top: 0.25rem;
+    }
+
+    p a {
+      color: $primary;
+      text-decoration: underline;
     }
   
     p+p {
